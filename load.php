@@ -1,15 +1,15 @@
 <?php
 /*Export SQl files and force download*/
 // Name of the file
-$filename = 'sptv.sql';
+$filename = 'xxxxxx';
 // MySQL host
 $mysql_host = 'localhost';
 // MySQL username
-$mysql_username = 'staginguser';
+$mysql_username = 'xxxxxxx';
 // MySQL password
-$mysql_password = 'ada2ejute';
+$mysql_password = 'xxxxxxx';
 // Database name
-$mysql_database = 'zadmin_stagingdb';
+$mysql_database = 'xxxxxxx';
 EXPORT_TABLES($mysql_host, $mysql_username,$mysql_password,$mysql_database );
  
 function EXPORT_TABLES($host,$user,$pass,$name,       $tables=false, $backup_name=false){ 
