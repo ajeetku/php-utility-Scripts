@@ -1,0 +1,1 @@
+This Plugin useful for show random or Custom Post type links in sidebar
